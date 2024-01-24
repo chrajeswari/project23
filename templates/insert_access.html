@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>ACCESS FROM</h1>
+        <form method="POST">
+            {% csrf_token %}
+        
+            <label for="n">NAME</label>
+            <input type="text" name="n" id="n">
+            <br><br>
+            <label for="d">DATE</label>
+            <input type="date" id="d" name="d" >
+            <br><br>
+            <label for="au">AUTHOR</label>
+            <input type="text"id="au" name="au">
+            <input type="submit">
+
+    </center>
+</body>
+</html>
